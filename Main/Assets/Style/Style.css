@@ -1,0 +1,64 @@
+body {
+  background: rgb(20,20,20);
+  position: relative;
+  height: 98vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+.Header {
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: rgb(25,25,25);
+}
+.NavagationBar {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavagationBarLinks {
+  display:flex;
+}
+.NavagationBarLinks >a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  color: rgb(240,240,240);
+  font-weight: 300;
+  font-size: 20px;
+  transition: color .2s ease-in-out;
+}
+.NavagationBarLinks >a:hover {
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  color: rgb(40,140,255);
+  font-weight: 300;
+  font-size: 20px;
+}
+.NavagationBarTitle {
+  font-family: "Fredoka", sans-serif;
+  color: rgb(240,240,240);
+  font-weight: 400;
+  font-size: 30px;
+}
+.ContentHolder {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+#particles-js {
+  background-color: var(--nord0);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  height: 100%;
+}
