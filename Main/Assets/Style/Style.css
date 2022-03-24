@@ -1,18 +1,24 @@
+:root {
+  --PrimaryColor: rgb(20,20,20);
+  --SecondaryColor: rgb(25,25,25);
+  --TextColor: rgb(240,240,240);
+  --TextColorHover: rgb(40,140,255);
+}
 body {
-  background: rgb(20,20,20);
+  background: var(--PrimaryColor);
   position: relative;
   height: 98vh;
   width: 100%;
   overflow: hidden;
   margin: 0px;
 }
-.Header {
+.Header { 
   position: fixed;
-  height: 10vh;
+  height: 10%;
   width: 100%;
   display: grid;
   place-items: center;
-  background-color: rgb(25,25,25);
+  background-color: var(--SecondaryColor);
 }
 .NavagationBar {
   width: 90vw;
@@ -27,30 +33,22 @@ body {
   margin-left: 20px;
   text-decoration: none;
   font-family: "Fredoka", sans-serif;
-  color: rgb(240,240,240);
+  color: var(--TextColor);
   font-weight: 300;
   font-size: 20px;
   transition: color .2s ease-in-out;
 }
 .NavagationBarLinks >a:hover {
-  color: rgb(40,140,255);
+  color: var(--TextColorHover);
 }
 .NavagationBarTitle {
   font-family: "Fredoka", sans-serif;
-  color: rgb(240,240,240);
+  color: var(--TextColor);
   font-weight: 400;
   font-size: 30px;
 }
-.ContentHolder {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-}
 #particles-js {
-  background-color: var(--nord0);
+  background-color: var(--PrimaryColor);
   position: fixed;
   left: 0px;
   top: 0px;
