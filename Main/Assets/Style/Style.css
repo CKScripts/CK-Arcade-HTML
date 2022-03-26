@@ -55,7 +55,41 @@ body {
   width: 100%;
 }
 .ContentBox {
-  
+  background-color: var(--SecondaryColor);
+  border: 1px solid var(--TextColor);
+  border-radius: 5%;
+  width: 35vw;
+  height: 20vw;
+  margin: 30px auto;
+  padding: 10px 15px;
+}
+.ContentBoxTitle {
+  font-family: "Fredoka", sans-serif;
+  color: var(--TextColor);
+  font-weight: 400;
+  font-size: 40px;
+}
+.ContentBoxDescription >p {
+  font-family: "Fredoka", sans-serif;
+  color: var(--TextColor);
+  font-weight: 300;
+  font-size: 20px;
+}
+.ContentBoxDescription >a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  color: var(--TextColor);
+  font-weight: 300;
+  font-size: 20px;
+  transition: color .2s ease-in-out;
+  border: 1px solid var(--TextColor);
+  border-radius: 7%;
+  padding: 5px 20px;
+}
+.ContentBoxDescription >a:hover {
+  color: var(--TextColorHover);
+  border-color: var(--TextColorHover);
 }
 #particles-js {
   background-color: var(--PrimaryColor);
