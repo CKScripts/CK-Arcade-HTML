@@ -13,9 +13,9 @@ body {
   margin: 0px;
 }
 .Header { 
-  position: fixed;
   height: 10%;
   width: 100%;
+  z-index: 1;
   display: grid;
   place-items: center;
   background-color: var(--SecondaryColor);
@@ -46,6 +46,16 @@ body {
   color: var(--TextColor);
   font-weight: 400;
   font-size: 30px;
+}
+.MainBody {
+  position: absolute;
+  text-align: center;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
+.ContentBox {
+  
 }
 #particles-js {
   background-color: var(--PrimaryColor);
