@@ -13,7 +13,7 @@ body {
   margin: 0px;
 }
 .Header { 
-  height: 10%;
+  height: 10vh;
   width: 100%;
   z-index: 1;
   display: grid;
@@ -21,6 +21,7 @@ body {
   background-color: var(--SecondaryColor);
 }
 .NavagationBar {
+  height: 100%;
   width: 90vw;
   display: flex;
   align-items: center;
@@ -30,12 +31,12 @@ body {
   display:flex;
 }
 .NavagationBarLinks >a {
-  margin-left: 20px;
+  margin-left: 2vh;
   text-decoration: none;
   font-family: "Fredoka", sans-serif;
   color: var(--TextColor);
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2vh;
   transition: color .2s ease-in-out;
 }
 .NavagationBarLinks >a:hover {
@@ -45,7 +46,7 @@ body {
   font-family: "Fredoka", sans-serif;
   color: var(--TextColor);
   font-weight: 400;
-  font-size: 30px;
+  font-size: 3vh;
 }
 .MainBody {
   position: absolute;
@@ -55,11 +56,11 @@ body {
   width: 100%;
 }
 .ContentBox {
+  text-align: center;
   background-color: var(--SecondaryColor);
-  border: 1px solid var(--TextColor);
   border-radius: 5%;
   width: 35vw;
-  height: 20vw;
+  height: 38vh;
   margin: 30px auto;
   padding: 10px 15px;
 }
@@ -67,23 +68,22 @@ body {
   font-family: "Fredoka", sans-serif;
   color: var(--TextColor);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 4vh;
 }
 .ContentBoxDescription >p {
   font-family: "Fredoka", sans-serif;
   color: var(--TextColor);
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2vh;
 }
 .ContentBoxDescription >a {
-  margin-left: 5px;
+  background-color: var(--PrimaryColor);
   text-decoration: none;
   font-family: "Fredoka", sans-serif;
   color: var(--TextColor);
   font-weight: 300;
   font-size: 20px;
   transition: color .2s ease-in-out;
-  border: 1px solid var(--TextColor);
   border-radius: 7%;
   padding: 5px 20px;
 }
